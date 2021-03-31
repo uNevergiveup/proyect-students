@@ -10,7 +10,7 @@
 }
 .header__index{
 	width: 100%;
-	background-image: url(img/fondo3.jpg);
+	background-image: url(../img/fondo3.jpg);
 	background-size: cover;
 	min-height: 700px;
 	position: relative;
@@ -216,7 +216,7 @@ span{
 	color: #E64A19;
 }
 .header__mentor{
-	background-image: url(img/fondo2.png);
+	background-image: url(../img/fondo2.png);
 	background-size: cover;
 	min-height: 850px;
 	margin-bottom: 80px;
@@ -265,7 +265,7 @@ span{
 }
 .buscador{
 	margin:auto;
-	background-color: black;
+	background-color: grey;
 	width: 1120px;
 }
 .buscador h3{
@@ -312,7 +312,7 @@ span{
 	color: gray;
 }
 .carrera__barra{
-	background-color: black;
+	background-color:grey;
 }
 .carrera__barra a{
 	text-decoration: none;
