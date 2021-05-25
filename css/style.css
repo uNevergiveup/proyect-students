@@ -1,207 +1,206 @@
-.contenedor{
+	.contenedor{
 	width: 100%;
 	height: 100%;
-}
-.contenedor p::selection,
-.contenedor h1::selection,
-.contenedor h4::selection,
-.contenedor div::selection{
+	}
+	.contenedor p::selection,
+	.contenedor h1::selection,
+	.contenedor h4::selection,
+	.contenedor div::selection{
 	background-color: #E64A19;
-}
-.header__index{
-	width: 100%;
+	}
+	.header__index{
+	width           : 100%;
 	background-image: url(../img/fondo3.jpg);
-	background-size: cover;
-	min-height: 700px;
-	position: relative;
-	margin-bottom: 650px;
-}
-nav{
-	width: 90%;
-	max-width: 1150px;
-	margin: 0 auto;
-	display: flex;
+	background-size : cover;
+	min-height      : 700px;
+	position        : relative;
+	margin-bottom   : 650px;
+	}
+	nav{
+	width          : 90%;
+	max-width      : 1150px;
+	margin         : 0 auto;
+	display        : flex;
 	justify-content: space-between;
-	align-items: baseline;
-}
-.logo{
+	}
+	.logo{
 	width: 140px;
 	height: 110px;
-}
-.header__barra{
+	}
+	.header__barra{
 	background-color: rgba(0,0,0,0.28);
 	}
 
-.header__menu{
+	.header__menu{
 	display: flex;
 	align-items: center;
 	margin:0px;
-}
-.header__link li{
-	list-style: none;
-	padding:17px 14px;
+	}
+	.header__link li{
+	list-style    : none;
+	padding       : 17px 14px;
 	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: bold;
-	font-family: 'PT Sans', sans-serif;
-}
-.header__barra a{
+	font-size     : 12px;
+	font-weight   : bold;
+	font-family   : 'PT Sans', sans-serif;
+	}
+	.header__barra a{
 	text-decoration: none;
 	color: white;
-}
-.header__login{
+	}
+	.header__login{
 	display: flex;
 	align-items: baseline;
 	background-color: #E64A19;
 	padding:5px 14px;
-}
-.header__login li{
+	}
+	.header__login li{
 	list-style: none;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
 	font-family: 'PT Sans', sans-serif;
-}
-.login{
+	}
+	.login{
 	margin-right: 5px;
-}
-.header__link:hover{
+	}
+	.header__link:hover{
 	background-color:#E64A19;
-}
-.header__contenido{
+	}
+	.header__contenido{
 	width: 30%;
 	margin: 120px 0px 0px 90px;
-	padding: 10px;
-	text-align: justify-all;
-	color:white;
-	font-size: 21px;
-	font-family: 'PT Sans';
-}
-.header__contenido p{
-	margin-bottom: 30px;
-}
-.header__button{
-	padding: 8px 40px;
-	border:1px solid #E64A19;
-	color: white;
-	background-color: #E64A19;
-	font-family: 'PT sans';
+	padding: 10px;p
+	text-align: justify-all;p
+	color:white;p
+	font-size: 21px;p
+	font-family: 'PT Sans';p
+	}p
+	.header__contenido p{p
+	margin-bottom: 30px;p
+	}p
+	.header__button{p
+	padding: 8px 40px;p
+	border:1px solid #E64A19;p
+	color: white;p
+	background-color: #E64A19p;
+	font-family: 'PT sans';p
 	font-size: 12px;
 	text-transform: uppercase;
 	text-decoration: none;
-}
-.header__button:hover{
+	}
+	.header__button:hover{
 	background-color: #842700;
 	border:1px solid #842700;
 	color: white;
 	transition: 0.5s;
-}
-.main__title{
-	margin-top: 50px;
-	margin-left: 90px;
+	}
+	.main__title{
+	margin-top    : 50px;
+	margin-left   : 90px;
 	text-transform: uppercase;
-	font-size: 40px;
-}
-.main__title::after{
+	font-size     : 40px;
+	}
+	.main__title::after{
 	content: "Disfruta de todo el proceso de estudio para que no sea un momento aburrido.";
 	font-size:20px;
-	color: gray;
+	color: gray;au
 
-}
-.main__section{
+	}
+	.main__section{
 	width: 80%;
 	margin: 50px auto;
 	display: flex;
 	text-align: justify;
-}
-.main__section div{
+	}
+	.main__section div{
 	padding:30px;
 	width: 35%;
-}
-.main__section h4{
+	}
+	.main__section h4{
 	font-size: 19px;
 	font-weight: bold;
-}
-.main__section hr{
+	}
+	.main__section hr{
 	width: 40%;
 	border:1px solid #E64A19;
-}
-.main__section p{
+	}
+	.main__section p{
 	font-size: 16px;
-}
-main{
+	}
+	main{
 	width: 80%;
 	background-color: white;
 	position: absolute;
 	top:640px;
 	right: 0;
 	font-family: 'PT Sans';
-}
-footer{
+	}
+	footer{
 	background-color:#2E4053;
 	width: 100%;
 	height: 90px;
-}
-.menu__footer{
+	}
+	.menu__footer{
 	padding-top: 16px;
 	margin: 0 auto;
 	width: 80%;
 	display: flex;
 	align-items: baseline;
 	justify-content: space-around;
-}
-.terminos{
+	}
+	.terminos{
 	color: white;
 	text-decoration: none;
 	font-size: 16px;
 	font-family: 'PT Sans';
-}
-.terminos:hover{
+	}
+	.terminos:hover{
 	color:#F39C12;
-}
-.social__footer a{
+	}
+	.social__footer a{
 	font-size: 24px;
 	text-decoration: none;
 	color: white;
 	padding-left: 15px;
-}
-.fb:hover{
+	}
+	.fb:hover{
 	color: #2980B9;
 	transition: 0.3s;
-}
-.twitter:hover{
+	}
+	.twitter:hover{
 	color:#5DADE2;
 	transition: 0.3s;
-}
-.mail:hover{
+	}
+	.mail:hover{
 	color: #E74C3C;
 	transition: 0.3s;
-}
-.social__footer{
+	}
+	.social__footer{
 	display: flex;
 	align-items: baseline;
-}
-span{
+	}
+	span{
 	position: absolute;
 	top: 120px;
 	right: 80px;
-}
-.mentor{
+	}
+	.mentor{
 	text-decoration: none;
 	color: white;
 	font-size: 16px;
 	font-weight: bold;
 	text-transform: uppercase;
-}
-.mentor:hover{
+	}
+	.mentor:hover{
 	font-size: 18px;
 	transition: 0.3s;
-}
-.mentor__contenido{
+	}
+	.mentor__contenido{
 	width: 100%;
 	font-family: 'PT sans';
-}
-.caja{
+	}
+	.caja{
 	background-color: white;
 	border: 1px solid white;
 	margin-top: 60px;
@@ -211,71 +210,71 @@ span{
 	flex-direction: column;
 	width: 40%;
 	box-shadow: 4px 4px 15px black;
-}
-.caja h2{
+	}
+	.caja h2{
 	color: #E64A19;
-}
-.header__mentor{
+	}
+	.header__mentor{
 	background-image: url(../img/fondo2.png);
 	background-size: cover;
 	min-height: 850px;
 	margin-bottom: 80px;
-}
-.mentor__section{
+	}
+	.mentor__section{
 	text-align: center;
 	width: 60%;
 	margin: 0 auto;
-}
-.registro{
+	}
+	.registro{
 	display: flex;
 	align-items: baseline;
 	margin:50px auto;
 	width: 65%;
 	justify-content: space-between;
-}
-.registro p{
+	}
+	.registro p{
 	font-size: 20px;
 	font-family: 'PT sans';
-}
-.registro a{
+	}
+	.registro a{
 	text-decoration: none;
 	padding: 10px 30px;
 	background-color: orange;
 	color: white;
 	font-family: 'PT sans';
-}
+	}
 
-#staff{
+	#staff{
 	margin-top: 7.5em;
 	margin-bottom: 6em;
 	text-align: center;
-}
-#staff h2{
+	}
+	#staff h2{
 	font-size: 45px;
 	font-family: "PT sans";
 	color:#E64A19;
 	letter-spacing: 3px;
 	margin: 0;
-}
-#staff p{
+	}
+	#staff p{
 	font-size: 25px;
 	margin-bottom: 50px;
 	font-family: "PT sans";
 	
-}
-.buscador{
+	}
+	.buscador{
 	margin:auto;
 	background-color: grey;
 	width: 1120px;
-}
-.buscador h3{
+	}
+	.buscador h3{
 	color: white;
 	font-family: "PT sans";
 	font-size: 30px;
 	margin: 0px;
 	padding-top: 24px;
-}
-#btnBuscar{
+	}
+	#btnBuscar{
 	background-color: transparent;
 	font-family: "PT sans";
 	border:1px solid white;
@@ -285,13 +284,13 @@ span{
 	font-size: 20px;
 	color:white;
 	margin-top: 0;
-}
-#btnBuscar:hover{
+	}
+	#btnBuscar:hover{
 	background-color: #E64A19;
 	transition: 0.3s;
 	cursor: pointer;
-}
-#txtCuidadores{
+	}
+	#txtCuidadores{
 	padding:2px 10px;
 	width: 263px;
 	height: 30px;
@@ -300,8 +299,8 @@ span{
 	font-weight: bold;
 	font-size:15px;
 	color:gray;
-}
-#cmbCuidador{
+	}
+	#cmbCuidador{
 	padding:2px 10px;
 	width: 270px;
 	height: 37px;
@@ -310,11 +309,11 @@ span{
 	font-weight: bold;
 	font-size:15px;
 	color: gray;
-}
-.carrera__barra{
+	}
+	.carrera__barra{
 	background-color:grey;
-}
-.carrera__barra a{
+	}
+	.carrera__barra a{
 	text-decoration: none;
 	color: white;
-}
+	}
